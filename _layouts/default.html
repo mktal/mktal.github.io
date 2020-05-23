@@ -13,8 +13,34 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+<style>
+ td#profile {
+  padding: 2.5%;
+  width:40%;
+  max-width:40%;
+ }
+ td#intro {
+  padding: 2.5%;
+  width:60%;
+  max-width:60%;
+  vertical-align: middle;
+ }
+@media only screen and (max-width: 640px) {
+ td#profile {
+  padding: 3.5%;
+  width:100%;
+  max-width:100%;
+  display: block;
+ }
+ td#intro {
+  padding: 3.5%;
+  width:100%;
+  max-width:100%;
+  display: block;
+ }
+}
+</style>
 </head>
-
 
 
 <body>
@@ -23,12 +49,7 @@
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr style="padding:0px">
-            <td style="padding:2.5%;width:60%;vertical-align:middle">
-<!--               <h1>
-                Xiaocheng Tang
-              </h1>
- -->
- <!-- <p align="center"> -->
+            <td id="intro">
               <p>
                 <name>Xiaocheng Tang</name><br>
                 <name>唐小程</name><br>
@@ -52,7 +73,7 @@
                 <a href="https://www.linkedin.com/in/xiaochengt/"> LinkedIn </a>
               </p>
             </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
+            <td id="profile">
               <img style="width:100%;max-width:100%" alt="profile photo" src="images/xct_profile3.jpg">
             </td>
           </tr>
