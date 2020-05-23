@@ -25,6 +25,18 @@
   max-width:60%;
   vertical-align: middle;
  }
+td#post-image {
+  padding:1.0%;
+  width:25%;
+  vertical-align:middle;
+  text-align:middle;
+  /*min-width:120px;*/
+}
+td#post {
+  padding:2.5%;
+  width:75%;
+  vertical-align:middle;
+}
 @media only screen and (max-width: 640px) {
  td#profile {
   padding: 3.5%;
@@ -34,10 +46,22 @@
  }
  td#intro {
   padding: 3.5%;
-  width:100%;
+  width:98%;
   max-width:100%;
   display: block;
  }
+td#post-image {
+  padding:2.5%;
+  width:90%;
+  vertical-align:middle;
+  display: block;
+}
+td#post {
+  padding:2.5%;
+  width:95%;
+  vertical-align:middle;
+  display: block;
+}
 }
 </style>
 </head>
@@ -100,11 +124,13 @@
           {% else %}
           <tr>
           {% endif %}
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+            <td id="post-image">
+            <!-- <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px"> -->
               <!-- <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" /> -->
-              <img src="/tn{{post.image}}">
+              <img src="/tn{{post.image}}", style="width:100%;height:auto;">
             </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
+            <td id="post">
+            <!-- <td style="padding:2.5%;width:75%;vertical-align:middle"> -->
               <h3>{{post.title}}</h3>
               <br>
               {{post.authors}}
