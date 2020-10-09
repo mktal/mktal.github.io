@@ -5,7 +5,7 @@ date:   2019-07-01
 image: /images/icdm2019risto.png
 categories: research
 author: "Xiaocheng Tang"
-authors: "John Holler, Risto Vuorio, Tiancheng Jin, <a href='https://sourl.cn/iyqtkS'>Satinder Singh</a>, Zhiwei Qin, Jieping Ye, <strong>Xiaocheng Tang</strong>, Yan Jiao, and Chenxi Wang"
+authors: "John Holler, <a href='https://sourl.cn/DSh37y'>Risto Vuorio</a>, Tiancheng Jin, <a href='https://sourl.cn/iyqtkS'>Satinder Singh</a>, Zhiwei Qin, Jieping Ye, <strong>Xiaocheng Tang</strong>, Yan Jiao, and Chenxi Wang"
 venue: "IEEE/International Conference on Data Mining (ICDM)"
 arxiv: https://sourl.cn/TsBmvy
 ---
