@@ -5,7 +5,7 @@ date:   2021-02-01
 image: /images/reposition_app.png
 categories: research
 author: "Xiaocheng Tang"
-authors: "Yan Jiao, <strong>Xiaocheng Tang</strong>, Zhiwei Tony Qin, Shuaiji Li, Fan Zhang, Hongtu Zhu, Jieping Ye"
+authors: "Yan Jiao, <strong>Xiaocheng Tang</strong>, Zhiwei Tony Qin, Shuaiji Li, Fan Zhang, <a href='https://sourl.cn/ddTLBD'>Hongtu Zhu</a>, Jieping Ye"
 venue: "preprint"
 arxiv: https://sourl.cn/SG93Lg
 ---
