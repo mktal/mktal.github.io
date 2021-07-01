@@ -6,7 +6,7 @@ image: /images/reposition_app.png
 categories: research
 author: "Xiaocheng Tang"
 authors: "Yan Jiao, <strong>Xiaocheng Tang</strong>, Zhiwei Tony Qin, Shuaiji Li, Fan Zhang, <a href='https://sourl.cn/ddTLBD'>Hongtu Zhu</a>, Jieping Ye"
-venue: "preprint"
+venue: "Transportation Research Part C: Emerging Technologies"
 arxiv: https://sourl.cn/SG93Lg
 ---
 We present a new practical framework based on deep reinforcement learning and decision-time planning for real-world vehicle repositioning on ride-hailing (a type of mobility-on-demand, MoD) platforms.
